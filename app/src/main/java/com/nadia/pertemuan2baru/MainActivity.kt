@@ -61,6 +61,10 @@ fun BasicCompose(nadia: Modifier = Modifier) {
             contentDescription = "zootopia",
             modifier = Modifier.size(250.dp)
         )
+
+        Text (
+            text = "New at the Zoo"
+        )
     }
 }
 
