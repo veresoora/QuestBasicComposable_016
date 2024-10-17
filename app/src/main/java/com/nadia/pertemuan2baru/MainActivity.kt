@@ -73,6 +73,10 @@ fun BasicCompose(nadia: Modifier = Modifier) {
             color = Color.Red,
             fontSize = 20.sp
         )
+
+        Text(
+            text = "Panda"
+        )
     }
 }
 
