@@ -41,7 +41,12 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-
+        Text(
+            text = "Zootopia",
+            modifier = nadia,
+            fontSize = 60.sp,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 
