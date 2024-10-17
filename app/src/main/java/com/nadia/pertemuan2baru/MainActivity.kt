@@ -37,7 +37,8 @@ class MainActivity : ComponentActivity() {
 fun BasicCompose(nadia: Modifier = Modifier) {
     Column (
         verticalArrangement = Arrangement.Top,
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {  }
 }
 
