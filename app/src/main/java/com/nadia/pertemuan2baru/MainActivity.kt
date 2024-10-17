@@ -79,6 +79,12 @@ fun BasicCompose(nadia: Modifier = Modifier) {
             fontSize = 30.sp,
             fontWeight = FontWeight.Bold
         )
+
+        Image(
+            painter = painterResource(id = R.drawable.panda),
+            contentDescription = "panda",
+            modifier = Modifier.size(350.dp)
+        )
     }
 }
 
