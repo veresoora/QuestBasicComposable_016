@@ -75,7 +75,9 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         )
 
         Text(
-            text = "Panda"
+            text = "Panda",
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold
         )
     }
 }
