@@ -66,6 +66,10 @@ fun BasicCompose(nadia: Modifier = Modifier) {
             text = "New at the Zoo",
             fontWeight = FontWeight.ExtraBold
         )
+
+        Text(
+            text = "Stay tuned on November 6th"
+        )
     }
 }
 
