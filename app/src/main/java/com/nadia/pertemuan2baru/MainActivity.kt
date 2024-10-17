@@ -47,6 +47,10 @@ fun BasicCompose(nadia: Modifier = Modifier) {
             fontSize = 60.sp,
             fontWeight = FontWeight.Bold
         )
+
+        Text(
+            text = "Welcome to our zoo!!"
+        )
     }
 }
 
