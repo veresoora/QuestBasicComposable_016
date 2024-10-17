@@ -13,7 +13,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.sp
 import com.nadia.pertemuan2baru.ui.theme.Pertemuan2BaruTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,9 +25,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan2BaruTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    BasicCompose(
+                        nadia = Modifier.padding(innerPadding)
                     )
                 }
             }
@@ -39,7 +40,9 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
-    ) {  }
+    ) {
+
+    }
 }
 
 @Composable
