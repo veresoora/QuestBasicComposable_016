@@ -48,7 +48,7 @@ fun BasicCompose(nadia: Modifier = Modifier) {
     ) {
         Text(
             text = "Login",
-            modifier = nadia,
+            modifier = Modifier.padding(top = 30.dp),
             fontSize = 60.sp,
             fontWeight = FontWeight.Bold
         )
