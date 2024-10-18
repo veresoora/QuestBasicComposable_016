@@ -81,8 +81,8 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         )
 
         Image(
-            painter = painterResource(id = R.drawable.panda),
-            contentDescription = "panda",
+            painter = painterResource(id = R.drawable.nadia),
+            contentDescription = "Nadia",
             modifier = Modifier.size(350.dp)
         )
     }
