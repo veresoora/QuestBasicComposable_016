@@ -60,7 +60,7 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.umy),
             contentDescription = "logo umy",
-            modifier = Modifier.size(250.dp)
+            modifier = Modifier.size(250.dp).padding(top = 30.dp)
         )
 
         Text (
