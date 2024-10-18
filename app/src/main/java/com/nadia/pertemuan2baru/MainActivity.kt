@@ -64,7 +64,7 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         )
 
         Text (
-            text = "New at the Zoo",
+            text = "Nama",
             fontWeight = FontWeight.ExtraBold
         )
 
