@@ -69,7 +69,7 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         )
 
         Text(
-            text = "Stay tuned on November 6th",
+            text = "Nadia Muna Haliza Kusuma",
             color = Color.Red,
             fontSize = 20.sp
         )
