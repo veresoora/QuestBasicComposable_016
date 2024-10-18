@@ -58,9 +58,9 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         )
 
         Image(
-            painter = painterResource(id = R.drawable.zootopia),
-            contentDescription = "zootopia",
-            modifier = Modifier.size(300.dp)
+            painter = painterResource(id = R.drawable.umy),
+            contentDescription = "logo umy",
+            modifier = Modifier.size(250.dp)
         )
 
         Text (
