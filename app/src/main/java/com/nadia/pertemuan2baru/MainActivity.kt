@@ -54,7 +54,7 @@ fun BasicCompose(nadia: Modifier = Modifier) {
         )
 
         Text(
-            text = "Welcome to our zoo!!"
+            text = "Ini adalah halaman login"
         )
 
         Image(
